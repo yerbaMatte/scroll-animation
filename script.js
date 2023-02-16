@@ -16,3 +16,20 @@ function checkBoxes() {
     }
   });
 }
+
+class Magneto {
+  test = 'test';
+  constructor(name = 'Maj', lastName = 'Lo') {
+    this.name = name;
+    this.lastName = lastName;
+  }
+  #data = 'xyz';
+
+  get greet() {
+    return this.name + ' ' + 'changed';
+  }
+
+  set unCover(boom) {
+    return this.#data;
+  }
+}
