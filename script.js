@@ -23,7 +23,6 @@ class Magneto {
     this.name = name;
     this.lastName = lastName;
   }
-  // #data = 'xyz';
 
   get greet() {
     return this.name + ' ' + 'changed';
